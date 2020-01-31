@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-app.use(require('cors'));
+app.use(require('cors')());
 const products = require('./products.json');
 const companies = require('./companies.json');
 const offerings = require('./offerings.json');
