@@ -1,0 +1,12 @@
+- npm i
+- node server.js
+
+- enpoints
+  - http://localhost:3000/api/users/random
+  - http://localhost:3000/api/users/detail/:id
+  - http://localhost:3000/api/companies
+  - GET http://localhost:3000/api/users/:id/followingCompanies
+  - POST http://localhost:3000/api/users/:id/followingCompanies
+    - payload { companyId: some_id }
+    - returns companyFollowing
+  - DELETE http://localhost:3000/api/users/:id/followingCompanies/:followingId
